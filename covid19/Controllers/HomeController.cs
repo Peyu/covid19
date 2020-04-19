@@ -24,7 +24,7 @@ namespace covid19.Controllers
 
         public IActionResult Index()
         {
-            var pp = _context.Casos.ToList();
+            //var pp = _context.Casos.ToList();
             return View();
         }
 
